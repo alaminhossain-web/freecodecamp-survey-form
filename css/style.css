@@ -1,0 +1,87 @@
+/* google font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+/* css reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6;
+    background-color: #575791;
+    color: #fff;
+
+}
+/* utility classes */
+#container{
+    max-width: 750px;
+    margin: 4rem auto;
+    padding: .6rem;
+}
+#title{
+    font-size: 2rem;
+    text-align: center;
+    line-height: 1.2;
+    padding: .6rem;
+}
+#description{
+    font-style: italic;
+    font-weight: 200;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
+    font-size: 1.1rem;
+    text-align: center;
+    padding: .2rem;
+    margin-bottom: 2rem;
+}
+#survey-form{
+    background-color: #222242;
+    padding: 3rem 2.5rem;
+    border-radius: 7px;
+}
+.form-group{
+    margin-bottom: 1.5rem;
+    font-size: 1.3rem;
+    
+}
+.form-group label{
+    display: block;
+    margin-bottom: .5rem;
+}
+#name,
+#email,
+#age,
+#dropdown-selector-role,
+#favorite-selector,
+#comments,
+#submit{
+    width: 100%;
+    padding: .6rem;
+    border-radius: 6px;
+    font-size: 1.1rem;
+    border: none;
+}
+
+#survey-form .form-group:nth-child(5) label{
+    display: inline;
+    
+}
+.form-group textarea{
+    height: 8rem;
+    font-size: 1.1rem;
+}
+#submit{
+    font-family: 'Poppins', sans-serif;
+display: block;
+width: 100%;
+padding: 0.75rem;
+background: #37af65;
+color: inherit;
+border-radius: 2px;
+cursor: pointer;
+margin-bottom: 1rem;
+}
+span{
+    font-size: 0.9rem;
+}
+
